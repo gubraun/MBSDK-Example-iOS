@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04F670EB4A747A4761074BCB /* Pods_MBMobileExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14427E4E3DCE0E0F841348C5 /* Pods_MBMobileExample.framework */; };
 		991B4315230189F1003D4B26 /* CarImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991B4313230189F1003D4B26 /* CarImageView.swift */; };
 		991B4316230189F1003D4B26 /* CarImageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 991B4314230189F1003D4B26 /* CarImageView.xib */; };
 		991B431923018AD5003D4B26 /* colors.xml in Resources */ = {isa = PBXBuildFile; fileRef = 991B431823018AD5003D4B26 /* colors.xml */; };
@@ -33,12 +34,12 @@
 		9926687F23015F3F0065BE53 /* MBMobileSDKConfigurationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9926687D23015F3F0065BE53 /* MBMobileSDKConfigurationHelper.swift */; };
 		9926688023015F3F0065BE53 /* MBLoggerConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9926687E23015F3F0065BE53 /* MBLoggerConfiguration.swift */; };
 		99266884230181180065BE53 /* Acknowledgements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99266883230181180065BE53 /* Acknowledgements.swift */; };
-		FD56F3C49DA3EF41DA9C25EC /* Pods_MBMobileExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 718347E4538D234D81201142 /* Pods_MBMobileExample.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6D95ED51A980A67D912CBAFF /* Pods-MBMobileExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MBMobileExample.debug.xcconfig"; path = "Target Support Files/Pods-MBMobileExample/Pods-MBMobileExample.debug.xcconfig"; sourceTree = "<group>"; };
-		718347E4538D234D81201142 /* Pods_MBMobileExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MBMobileExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		14427E4E3DCE0E0F841348C5 /* Pods_MBMobileExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MBMobileExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		74A9250DC851E09BFAF36390 /* Pods-MBMobileExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MBMobileExample.release.xcconfig"; path = "Target Support Files/Pods-MBMobileExample/Pods-MBMobileExample.release.xcconfig"; sourceTree = "<group>"; };
+		9392A478114460D5C724AB37 /* Pods-MBMobileExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MBMobileExample.debug.xcconfig"; path = "Target Support Files/Pods-MBMobileExample/Pods-MBMobileExample.debug.xcconfig"; sourceTree = "<group>"; };
 		991B4313230189F1003D4B26 /* CarImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarImageView.swift; sourceTree = "<group>"; };
 		991B4314230189F1003D4B26 /* CarImageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CarImageView.xib; sourceTree = "<group>"; };
 		991B431823018AD5003D4B26 /* colors.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = colors.xml; sourceTree = "<group>"; };
@@ -69,7 +70,6 @@
 		9926687D23015F3F0065BE53 /* MBMobileSDKConfigurationHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MBMobileSDKConfigurationHelper.swift; sourceTree = "<group>"; };
 		9926687E23015F3F0065BE53 /* MBLoggerConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MBLoggerConfiguration.swift; sourceTree = "<group>"; };
 		99266883230181180065BE53 /* Acknowledgements.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Acknowledgements.swift; sourceTree = "<group>"; };
-		AE7C1E23137A2B51780301EE /* Pods-MBMobileExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MBMobileExample.release.xcconfig"; path = "Target Support Files/Pods-MBMobileExample/Pods-MBMobileExample.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,21 +77,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD56F3C49DA3EF41DA9C25EC /* Pods_MBMobileExample.framework in Frameworks */,
+				04F670EB4A747A4761074BCB /* Pods_MBMobileExample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		95F5164836EA3EE06717BD5A /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				718347E4538D234D81201142 /* Pods_MBMobileExample.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		991B4317230189F4003D4B26 /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -113,7 +105,7 @@
 				99266853230154AF0065BE53 /* MBMobileExample */,
 				99266852230154AF0065BE53 /* Products */,
 				D096F12932A6448DA481F9B1 /* Pods */,
-				95F5164836EA3EE06717BD5A /* Frameworks */,
+				A3F964D7DACACD9CC6DA3B20 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -208,11 +200,19 @@
 			path = DataSource;
 			sourceTree = "<group>";
 		};
+		A3F964D7DACACD9CC6DA3B20 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				14427E4E3DCE0E0F841348C5 /* Pods_MBMobileExample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D096F12932A6448DA481F9B1 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				6D95ED51A980A67D912CBAFF /* Pods-MBMobileExample.debug.xcconfig */,
-				AE7C1E23137A2B51780301EE /* Pods-MBMobileExample.release.xcconfig */,
+				9392A478114460D5C724AB37 /* Pods-MBMobileExample.debug.xcconfig */,
+				74A9250DC851E09BFAF36390 /* Pods-MBMobileExample.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -224,13 +224,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 99266863230154B00065BE53 /* Build configuration list for PBXNativeTarget "MBMobileExample" */;
 			buildPhases = (
-				BEA7A7962274CB1B025DEEAE /* [CP] Check Pods Manifest.lock */,
+				266C5771BDE7040098493982 /* [CP] Check Pods Manifest.lock */,
 				9926687623015D200065BE53 /* SwiftGen */,
 				9926684D230154AF0065BE53 /* Sources */,
 				9926684E230154AF0065BE53 /* Frameworks */,
 				9926684F230154AF0065BE53 /* Resources */,
 				9926687723015D370065BE53 /* Swiftlint */,
-				438CB12AD07BBE188DF38B10 /* [CP] Embed Pods Frameworks */,
+				58BEF1BD936187B2B3A441E8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -295,7 +295,29 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		438CB12AD07BBE188DF38B10 /* [CP] Embed Pods Frameworks */ = {
+		266C5771BDE7040098493982 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MBMobileExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		58BEF1BD936187B2B3A441E8 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -347,28 +369,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "sh SwiftLint.sh\n";
-		};
-		BEA7A7962274CB1B025DEEAE /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-MBMobileExample-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -540,7 +540,7 @@
 		};
 		99266864230154B00065BE53 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6D95ED51A980A67D912CBAFF /* Pods-MBMobileExample.debug.xcconfig */;
+			baseConfigurationReference = 9392A478114460D5C724AB37 /* Pods-MBMobileExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
@@ -561,7 +561,7 @@
 		};
 		99266865230154B00065BE53 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AE7C1E23137A2B51780301EE /* Pods-MBMobileExample.release.xcconfig */;
+			baseConfigurationReference = 74A9250DC851E09BFAF36390 /* Pods-MBMobileExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;

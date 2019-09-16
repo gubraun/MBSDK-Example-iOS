@@ -32,7 +32,7 @@ class HomeViewController: UIViewController {
 		
 		/// stop observer
 		self.disposal.removeAll()
-		MBCarKit.socketService.unregisterAndDisconnectIfPossible(token: self.token)
+		CarKit.socketService.unregisterAndDisconnectIfPossible(token: self.token)
 	}
 	
 	override func viewDidLoad() {
@@ -91,7 +91,7 @@ class HomeViewController: UIViewController {
 			button.activate(state: .loading)
 			
 			// Send the command request to lock the doors
-			MBCarKit.socketService.send(command: Command.DoorsLock(), completion: { (commandProcessingState, meta) in
+			CarKit.socketService.send(command: Command.DoorsLock(), completion: { (commandProcessingState, meta) in
 				
 				// Updates the UI for the state of the command request
 				self?.commandDoorView.handle(commandProcessingState: commandProcessingState, meta: meta, button: button)
@@ -104,7 +104,7 @@ class HomeViewController: UIViewController {
 			button.activate(state: .loading)
 			
 			// Send the command request to lock the doors
-			MBCarKit.socketService.send(command: Command.DoorsUnlock(), completion: { (commandProcessingState, meta) in
+			CarKit.socketService.send(command: Command.DoorsUnlock(), completion: { (commandProcessingState, meta) in
 				
 				// Updates the UI for the state of the command request
 				self?.commandDoorView.handle(commandProcessingState: commandProcessingState, meta: meta, button: button)
@@ -159,8 +159,8 @@ class HomeViewController: UIViewController {
     /// Example implementation how to create the connection and observes the status of the vehicle
 	private func observeVehicleStatus() {
         
-        // Connect the MyCar SocketService to the socket
-		let socketStateTupel = MBCarKit.socketService.connect(notificationTokenCreated: { [weak self] notificationToken in
+        // Connect the CarKit SocketService to the socket
+		let socketStateTupel = CarKit.socketService.connect(notificationTokenCreated: { [weak self] notificationToken in
             
             // Token that will be used to remove the socket connection
 			self?.token = notificationToken

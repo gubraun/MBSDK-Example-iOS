@@ -22,7 +22,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 		
 		// setup SDK
 		let configuration = MBMobileSDKConfigurationHelper.getConfig()
-		MBMobileSDK.setup(configuration: configuration, menuDataSource: MenuDataSource())
+		MobileSDK.setup(configuration: configuration, menuDataSource: MenuDataSource())
 		
 		return true
 	}
@@ -30,7 +30,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 	func application(_ application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
 		
 		// pass the deviceToken to the SDK
-		MBMobileSDK.setPushDeviceToken(token: deviceToken)
+		MobileSDK.setPushDeviceToken(token: deviceToken)
 	}
 	
 	func application(_ application: UIApplication, didFailToRegisterForRemoteNotificationsWithError error: Error) {

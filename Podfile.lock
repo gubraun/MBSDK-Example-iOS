@@ -88,11 +88,11 @@ PODS:
   - MBUIKit/Widgets (1.0.0):
     - MBCommonKit/Logger (~> 1.0)
     - MBUIKit/Basic
-  - Realm (3.17.3):
-    - Realm/Headers (= 3.17.3)
-  - Realm/Headers (3.17.3)
-  - RealmSwift (3.17.3):
-    - Realm (= 3.17.3)
+  - Realm (3.18.0):
+    - Realm/Headers (= 3.18.0)
+  - Realm/Headers (3.18.0)
+  - RealmSwift (3.18.0):
+    - Realm (= 3.18.0)
   - Starscream (3.1.0)
   - SwiftGen (6.1.0)
   - SwiftLint (0.35.0)
@@ -152,8 +152,8 @@ SPEC CHECKSUMS:
   MBRealmKit: b294eb49c38b152047517074b813234736002714
   MBSupportKit: a8fe6c98004429268d0a6f9412ad3c3bbf3c449b
   MBUIKit: 38c5bedc396b405986ce6c2cddffe9b1ec846720
-  Realm: 5a1d9d47bfc101dd597668b1a8af4288a2557f6d
-  RealmSwift: b7fdc2d18616621c31df5c7a398a45a2163f8eb0
+  Realm: 7b3d04740facf45e958a514b466a32b04f1113d6
+  RealmSwift: c817b5f374668cf08f649afb05f55d92a787649c
   Starscream: 08172b481e145289c4930cb567230fb55897cfa4
   SwiftGen: f872ca75cbd17bf7103c17f13dcfa0d9a15667b0
   SwiftLint: 5553187048b900c91aa03552807681bb6b027846
